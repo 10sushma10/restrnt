@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QTQ Restaurant</title>
+    <style>
+        /* CSS Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333; /* Dark gray for text */
+        }
+        header {
+            background-color: #f7d794; /* Light orange */
+            padding: 20px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 10px;
+            color: #fff;
+            text-decoration: none;
+        }
+        .content {
+            background-color: #f9e79f; /* Light yellow */
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: #82ccdd; /* Light blue */
+            padding: 20px;
+            text-align: center;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            color: #fff; /* White for text */
+        }
+        h1, h2, h3 {
+            color: #222; /* Dark gray for headings */
+        }
+        p {
+            color: #444; /* Gray for paragraph text */
+        }
+        /* Increasing contrast for smaller text */
+        @media screen and (max-width: 768px) {
+            body {
+                color: #555; /* Slightly lighter gray for small text */
+            }
+            footer {
+                color: #eee; /* Even lighter gray for small text in footer */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#products">Products</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="content">
+        <h1>Welcome to QTQ Restaurant</h1>
+        <img src="restaurant.jpg" alt="Restaurant Image" style="max-width: 100%;">
+        <p>At QTQ Restaurant, we offer a diverse menu featuring delicious dishes from around the world.</p>
+        <h2>Menu</h2>
+        <div>
+            <h3>Appetizers</h3>
+            <p>Check out our mouthwatering appetizers selection!</p>
+            <ul>
+                <li>Spring Rolls</li>
+                <li>Bruschetta</li>
+                <li>Calamari</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Main Courses</h3>
+            <p>From hearty steaks to delicate seafood, we have something for everyone.</p>
+            <ul>
+                <li>Grilled Salmon</li>
+                <li>Chicken Alfredo</li>
+                <li>Beef Stir Fry</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 QTQ Restaurant. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript (optional) -->
+    <script>
+        // You can add JavaScript functionality here if needed
+    </script>
+</body>
+</html>
